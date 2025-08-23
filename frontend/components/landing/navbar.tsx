@@ -17,7 +17,7 @@ export default function Navbar() {
 							MindCare
 						</span>
 					</div>
-					<Link href='/user-preferences'>
+					<Link href='/user-assessment'>
 						<Button className='bg-gradient-to-r from-green-600 to-emerald-600 hover:from-green-700 hover:to-emerald-700 text-white shadow-lg hover:shadow-xl transition-all duration-300'>
 							Get Started
 							<ArrowRight className='w-4 h-4 ml-2' />

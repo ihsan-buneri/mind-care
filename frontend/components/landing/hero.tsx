@@ -4,11 +4,7 @@ import { Button } from "@/components/ui/button";
 import { Sparkles, ArrowRight } from "lucide-react";
 import Link from "next/link";
 
-type HeroProps = {
-	onGetStarted?: () => void;
-};
-
-export default function Hero({ onGetStarted }: HeroProps) {
+export default function Hero() {
 	return (
 		<section className='py-20 px-4'>
 			<div className='container mx-auto max-w-6xl text-center'>
@@ -31,7 +27,7 @@ export default function Hero({ onGetStarted }: HeroProps) {
 				</div>
 
 				<div className='flex flex-col sm:flex-row gap-4 justify-center items-center mb-12 animate-in fade-in slide-in-from-bottom-6 duration-1000 delay-300'>
-					<Link href='/user-preferences'>
+					<Link href='/user-assessment'>
 						<Button
 							size='lg'
 							className='bg-gradient-to-r from-green-600 to-emerald-600 hover:from-green-700 hover:to-emerald-700 text-white px-8 py-4 text-lg shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:scale-105'
